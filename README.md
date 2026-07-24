@@ -34,6 +34,15 @@ prompts, no special commands needed:
 All runs log decisions to logs/. Nothing gets published or
 scheduled without sign-off.
 
+Alongside those, a curated set of 17 marketing skills from
+coreyhaines31/marketingskills is installed: product-marketing
+(the foundation the others read first), social, copywriting,
+copy-editing, content-strategy, ad-creative, ads, aso, analytics,
+ab-testing, marketing-psychology, marketing-ideas, launch,
+influencer-marketing, community-marketing, referrals, and video.
+They trigger on normal prompts too ("write ad copy for...",
+"improve our App Store listing", "score this hook").
+
 The skills are portable. Voice and strategy come from each
 project's own CLAUDE.md and PLAN.md. To install them in another
 project (e.g. fanatiqagents):
