@@ -1,7 +1,11 @@
-# Design & Motion Skills
+# Marketing Skills
 
 Community skills vendored into this repo so every Claude Code session
-picks them up automatically. Sourced 2026-07-24.
+picks them up automatically. Sourced 2026-07-24. These cover web design
+and motion/video. Static artwork skills (canvas-design, algorithmic-art,
+dataviz, theme-factory, pptx, docx) are provided by the Claude platform
+itself and need no vendoring — the Marketing Skills section in CLAUDE.md
+routes tasks to all of them.
 
 | Skill(s) | Source | Commit | Purpose |
 |---|---|---|---|

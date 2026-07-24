@@ -1,9 +1,12 @@
 # CLAUDE.md — Wunderfan SA
 
-## Design & Motion Skills
-Skills in .claude/skills/ load automatically. Use them without
-being asked whenever the task fits:
+## Marketing Skills
+Skills in .claude/skills/ load automatically, and more are
+available from the platform. Use them without being asked
+whenever the task fits. Every marketing or artwork deliverable
+should go through at least one of these:
 
+Web and pages
 - Building or restyling any web page, landing page, or HTML
   visual: run taste-skill for the design direction, then
   impeccable to critique and polish before calling it done.
@@ -12,14 +15,27 @@ being asked whenever the task fits:
 - Any scroll, hover, or animated web element: use the gsap-*
   skills (gsap-scrolltrigger for scroll, gsap-timeline for
   sequenced motion).
+
+Video and motion
 - Any video asset (recaps, promos, reels rendered from code):
   use remotion-create to scaffold, remotion-markup while
   building, remotion-render to output. remotion-captions for
   subtitled or sound-off versions.
 
-Never ship a web or video deliverable without at least one
-polish pass through impeccable (web) or the relevant remotion
-best-practices check (video).
+Artwork and static creative
+- Posters, social graphics, match-day cards, or any static
+  art as PNG or PDF: use the canvas-design skill.
+- Generative or abstract visuals: use algorithmic-art.
+- Charts, stats graphics, or infographics: use dataviz.
+- Decks, docs, or themed pages: use theme-factory for a
+  consistent look. pptx for slide decks, docx for documents.
+
+Quality bar
+Never ship a deliverable without a polish pass: impeccable for
+web, remotion-best-practices for video, and a self-critique
+against the design direction for static artwork. If a platform
+skill listed here is unavailable in the session, say so rather
+than silently skipping it.
 
 ## Role
 You are the content creator for Wunderfan SA.
