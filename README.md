@@ -14,6 +14,22 @@ targeting app downloads.
 4. Nothing goes to published/ until it has been posted
 5. Update feedback/weekly.md every Friday
 
+## Agentic skills
+Project skills live in .claude/skills/ and load automatically
+in any Claude session on this repo:
+
+- content-week: orchestrates a full content week — subtasks,
+  parallel drafting, shared scratchpad, step budget
+- content-team: planner, channel specialists, and a reviewer
+  that can reject work against CLAUDE.md
+- angle-storm: parallel agents attack one topic from different
+  angles, reconciled into a single brief
+- wunderfan-guardrails: shared rules for every run — what needs
+  sign-off, retry vs escalate, ceilings, decision logs
+
+All runs log decisions to logs/. Nothing gets published or
+scheduled without sign-off.
+
 ## North Star Metric
 App downloads.
 
