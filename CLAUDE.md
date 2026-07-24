@@ -15,6 +15,15 @@ Web and pages
 - Any scroll, hover, or animated web element: use the gsap-*
   skills (gsap-scrolltrigger for scroll, gsap-timeline for
   sequenced motion).
+- Component-level polish and micro-interaction details:
+  emil-design-eng. Style, palette, or font-pairing decisions:
+  ui-ux-pro-max. Final audit of UI code: web-design-guidelines.
+
+Brand and identity
+- Logo directions, palettes, or brand boards: use brandkit.
+- Matching an existing site's look: extract-design-system to
+  pull its tokens first.
+- Building from a reference image or screenshot: image-to-code.
 
 Video and motion
 - Any video asset (recaps, promos, reels rendered from code):
