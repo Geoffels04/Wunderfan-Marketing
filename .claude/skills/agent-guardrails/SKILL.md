@@ -1,14 +1,16 @@
 ---
-name: wunderfan-guardrails
-description: Shared guardrails for every agentic Wunderfan run. Use when running content-week, content-team, angle-storm, build-loop, or any multi-step autonomous task in this repo. Defines what needs Geoff's sign-off, what gets retried vs escalated, step and cost ceilings, the decision log format, and how to flag being stuck.
+name: agent-guardrails
+description: Shared guardrails for every agentic run in this project. Use when running content-week, content-team, angle-storm, build-loop, or any multi-step autonomous task. Defines what needs the owner's sign-off, what gets retried vs escalated, step and cost ceilings, the decision log format, and how to flag being stuck.
 ---
 
-# Wunderfan Guardrails
+# Agent Guardrails
 
-Every autonomous or multi-agent run in this repo operates under these
-rules. Other skills reference this file instead of restating it.
+Every autonomous or multi-agent run in this project operates under
+these rules. Other skills reference this file instead of restating
+it. Portable: drop this folder into any repo's `.claude/skills/`
+and it applies there too.
 
-## Needs Geoff's sign-off (never do autonomously)
+## Needs the owner's sign-off (never do autonomously)
 
 - Publishing or scheduling anything to a live channel
   (Instagram, TikTok, Metricool, OneSignal, email, Slack externally)
@@ -17,20 +19,20 @@ rules. Other skills reference this file instead of restating it.
 - Editing PLAN.md or CLAUDE.md
 - Deleting any file in briefs/, drafts/, or published/
 - Moving content into published/ (that means it went live; only
-  Geoff confirms that)
+  the owner confirms that)
 
-Everything else in this repo is drafts on a branch. Reversible.
+Everything else in the repo is drafts on a branch. Reversible.
 Proceed without asking.
 
 ## Retry vs escalate
 
 - Retry yourself (max 2 retries): a draft that fails self-check,
-  a banned word slipping in, a file save to the wrong path,
+  a banned word slipping in, a file saved to the wrong path,
   a subagent returning off-voice copy.
-- Escalate to Geoff (stop and ask, don't guess): a brief that
-  contradicts PLAN.md, a fixture or result you cannot verify,
-  anything touching the sign-off list above, rival-fan or
-  political territory, two failed retries on the same step.
+- Escalate to the owner (stop and ask, don't guess): a brief that
+  contradicts PLAN.md, a fact, fixture, or result you cannot
+  verify, anything touching the sign-off list above, content in
+  territory CLAUDE.md bans, two failed retries on the same step.
 
 ## Ceilings
 

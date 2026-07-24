@@ -16,19 +16,29 @@ targeting app downloads.
 
 ## Agentic skills
 Project skills live in .claude/skills/ and load automatically
-in any Claude session on this repo:
+in any Claude session on this repo. They trigger on normal
+prompts, no special commands needed:
 
 - content-week: orchestrates a full content week — subtasks,
-  parallel drafting, shared scratchpad, step budget
+  parallel drafting, shared scratchpad, step budget.
+  Trigger: "build next week's content"
 - content-team: planner, channel specialists, and a reviewer
-  that can reject work against CLAUDE.md
+  that can reject work against CLAUDE.md.
+  Trigger: "give this brief the team treatment"
 - angle-storm: parallel agents attack one topic from different
-  angles, reconciled into a single brief
-- wunderfan-guardrails: shared rules for every run — what needs
+  angles, reconciled into a single brief.
+  Trigger: "what could we do with [topic]"
+- agent-guardrails: shared rules for every run — what needs
   sign-off, retry vs escalate, ceilings, decision logs
 
 All runs log decisions to logs/. Nothing gets published or
 scheduled without sign-off.
+
+The skills are portable. Voice and strategy come from each
+project's own CLAUDE.md and PLAN.md. To install them in another
+project (e.g. fanatiqagents):
+
+    ./scripts/install-skills.sh /path/to/other-repo
 
 ## North Star Metric
 App downloads.
